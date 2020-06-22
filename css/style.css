@@ -67,7 +67,7 @@ img{
 }
 
 .footer{
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	left: 0;
 	bottom: 0;
