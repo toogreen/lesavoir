@@ -21,9 +21,23 @@ h1{
 	text-align: left;
 }
 
+h4{
+	text-align: left;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
 p{
 	text-align: left;
 	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 
 
@@ -33,7 +47,7 @@ img{
 
 
 .header{
-	width: 90%;
+	width: 100%;
 	height: 120px;
 	text-align: center;
 	padding: 0px 0;
@@ -45,7 +59,7 @@ img{
 }
 
 .container{
-	width: 80%;
+	width: 90%;
 	text-align: center;
 	margin: auto;
 	border-top: solid 1px black;
@@ -53,25 +67,26 @@ img{
 
 .left-column .card1 {
 	border-top: solid 1px black;
-	padding-top: 0px;
+	padding-top: 2px;
 }
 
 .left-column .card1:hover {
 	border-top: solid 3px black;
 	filter: sepia(100%);
-	padding-top: 3px;
+	padding-top: 0px;
 }
 
 
 .left-column .card1 img {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .left-column h1{
 	font-size: 18px;
 }
 
-.left-column .card2, .middle-column .card2 {
+
+.card2 {
 	border-top: solid 1px black;
 	margin-top: 70px;
 	margin-bottom: 20px;
@@ -91,8 +106,6 @@ img{
 
 
 
-
-
 .middle-column .card1 {
 	border-top: solid 1px orange;
 	background-color: rgb(240,240,240,1);
@@ -104,9 +117,17 @@ img{
 	font-size: 24px;
 }
 
+.middle-column .card1 h4{
+	color: orange;
+}
+
 .middle-column .card1:hover {
 	border-top: solid 3px orange;
 	padding-top: 17px
+}
+
+.middle-column .card2 h1{
+	font-size: 16px;
 }
 
 
@@ -117,19 +138,37 @@ img{
 	border-top: solid 1px turquoise;
 	background-color: rgb(240,240,240,1);
 	padding: 17px;
+	padding-top: 19px;
+}
+
+.right-column:hover{
+	border-top: solid 3px turquoise;
+	background-color: rgb(240,240,240,1);
+	padding: 17px;
+	padding-top: 17px;
+	filter: sepia(310deg);
 }
 
 
 .right-column h1{
 	font-size: 18px;
+}
 
+.right-column h4{
+	color: turquoise;
+}
+
+
+.right-column .card2 h4{
+	margin-top: 20px;
+	color: black;
 }
 
 
 .right-column img{
 	max-width: 100%;
-
 }
+
 
 .footer{
 	text-align: center;
@@ -137,7 +176,8 @@ img{
 	bottom: 0;
 	width:100%;
 	padding: 20px 0 20px; 0;
-	background-color: #404042;
+	/*background-color: #404042;*/
+	background-color: black;
 	color: white;
 	margin: 0;
 }
