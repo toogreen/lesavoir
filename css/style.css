@@ -93,6 +93,13 @@ img{
 
 }
 
+.card2:hover {
+	border-top: solid 3px black;
+	margin-top: 68px;
+	margin-bottom: 20px;
+
+}
+
 .left-column .card2 img{
 	margin-top: 20px;
 	margin-right: 20px;
