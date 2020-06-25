@@ -1,4 +1,3 @@
-
 @media (min-width: 768px) {
   .grid {
   	text-align: center;
@@ -8,6 +7,13 @@
     display: grid;
     grid-template-columns: 40% 1fr 30%;
 	grid-gap:  20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .no-mobile {
+  	display: none;
   }
 }
 
