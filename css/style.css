@@ -58,7 +58,7 @@ img{
 }
 
 
-.header{
+header{
 	width: 100%;
 	text-align: center;
 	padding: 40px 0;
@@ -192,7 +192,7 @@ img{
 }
 
 
-.footer{
+footer{
 	text-align: center;
 	left: 0;
 	bottom: 0;
@@ -204,11 +204,11 @@ img{
 	margin: 0;
 }
 
-.footer p{
+footer p{
 	text-align: center;
 }
 
-.footer a{
+footer a{
 	color: white;
 	text-decoration: underline;
 }
